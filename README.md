@@ -84,4 +84,25 @@ The key entities in the project and their important fields are:
 
 This structure ensures organized data storage and efficient querying for user, property, booking, review, and payment information.
 
+## Feature Breakdown
+
+- **User Management:** Enables user registration, authentication, and role-based access control, allowing customers, hosts, and administrators to securely interact with the system.
+
+- **Property Management:** Allows property owners to list, edit, and manage details of their properties, including descriptions, pricing, and availability.
+
+- **Booking System:** Facilitates searching, reserving, and managing bookings for properties with real-time availability checks and booking status updates.
+
+- **Review and Rating System:** Lets users leave feedback and ratings for properties they have stayed at, helping future users make informed decisions.
+
+- **Payment Processing:** Supports secure payment transactions for bookings, including processing various payment methods and managing payment confirmations.
+
+- **Notification System:** Sends automated notifications such as booking confirmations, reminders, and status updates via email or SMS.
+
+- **Reporting and Analytics:** Provides insights on booking trends, revenue, and user activity to inform business decisions and optimize operations.
+
+- **Admin Dashboard:** Offers administrative tools to monitor and manage users, properties, bookings, and system settings efficiently.
+
+These features work together to create a seamless and efficient property booking experience for both users and administrators.
+
+
 
