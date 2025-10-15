@@ -22,3 +22,14 @@ The project team consists of the following roles, each with distinct responsibil
 
 Each role collaborates closely to ensure the success of the project, adapting as needed throughout the project lifecycle.
 
+## Technology Stack
+
+- **Django:** A high-level Python web framework used for building the RESTful API.
+- **Django REST Framework:** Provides tools and libraries for creating and managing RESTful APIs within Django.
+- **PostgreSQL:** A powerful, open-source relational database system used for reliable and scalable data storage.
+- **GraphQL:** A query language that allows flexible and efficient data retrieval from the API.
+- **Celery:** A distributed task queue used for handling asynchronous tasks like notifications and payment processing.
+- **Redis:** An in-memory data structure store used for caching and session management to improve performance.
+- **Docker:** A containerization platform for creating consistent development, testing, and deployment environments.
+- **CI/CD Pipelines:** Automated workflows that build, test, and deploy code changes, ensuring continuous integration and delivery.
+
