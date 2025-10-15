@@ -33,3 +33,55 @@ Each role collaborates closely to ensure the success of the project, adapting as
 - **Docker:** A containerization platform for creating consistent development, testing, and deployment environments.
 - **CI/CD Pipelines:** Automated workflows that build, test, and deploy code changes, ensuring continuous integration and delivery.
 
+  ## Database Design
+
+The key entities in the project and their important fields are:
+
+- **Users**
+  - user_id (Primary Key)
+  - name
+  - email
+  - phone_number
+  - role (e.g., customer, host)
+
+- **Properties**
+  - property_id (Primary Key)
+  - owner_id (Foreign Key to Users)
+  - title
+  - description
+  - location
+  - price_per_night
+
+- **Bookings**
+  - booking_id (Primary Key)
+  - user_id (Foreign Key to Users)
+  - property_id (Foreign Key to Properties)
+  - start_date
+  - end_date
+  - status (e.g., confirmed, cancelled)
+
+- **Reviews**
+  - review_id (Primary Key)
+  - user_id (Foreign Key to Users)
+  - property_id (Foreign Key to Properties)
+  - rating
+  - comment
+
+- **Payments**
+  - payment_id (Primary Key)
+  - booking_id (Foreign Key to Bookings)
+  - amount
+  - payment_date
+  - payment_method
+
+### Relationships
+
+- A user can own multiple properties (one-to-many from Users to Properties).
+- A user can make multiple bookings, but each booking belongs to one user (one-to-many from Users to Bookings).
+- Each booking is for a single property, while a property can have multiple bookings (one-to-many from Properties to Bookings).
+- Users can leave multiple reviews on properties they have booked, while each review is tied to one property and one user.
+- Each booking has one payment associated with it, linking payments to bookings in a one-to-one or one-to-many manner.
+
+This structure ensures organized data storage and efficient querying for user, property, booking, review, and payment information.
+
+
