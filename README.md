@@ -104,5 +104,20 @@ This structure ensures organized data storage and efficient querying for user, p
 
 These features work together to create a seamless and efficient property booking experience for both users and administrators.
 
+## API Security
+
+- **Authentication:** Secure user login and identity verification using tokens or OAuth to ensure only legitimate users access the API. This protects sensitive user data and prevents unauthorized access.
+
+- **Authorization:** Role-based access control (RBAC) is implemented to restrict what each user can do based on their role, minimizing the risk of unauthorized operations within the system.
+
+- **Rate Limiting:** Controls the number of API requests from a single user or IP address to prevent abuse such as Denial-of-Service (DoS) attacks, ensuring API availability and reliability.
+
+- **Data Validation and Sanitization:** All incoming data is validated and sanitized to prevent injection attacks (e.g., SQL injection), protecting the backend and database from malicious inputs.
+
+- **Secure Configuration:** The API environment ensures no default passwords are used, secrets are stored securely, and debug information is disabled to avoid exposing sensitive information.
+
+These security measures are crucial for protecting user privacy, securing payment transactions, and maintaining overall system integrity against common web vulnerabilities.
+
+
 
 
