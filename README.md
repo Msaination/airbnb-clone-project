@@ -118,6 +118,15 @@ These features work together to create a seamless and efficient property booking
 
 These security measures are crucial for protecting user privacy, securing payment transactions, and maintaining overall system integrity against common web vulnerabilities.
 
+## CI/CD Pipeline
+
+A CI/CD (Continuous Integration and Continuous Delivery/Deployment) pipeline is an automated workflow that streamlines the process of building, testing, and deploying code. It enhances software delivery by allowing teams to integrate code changes frequently and release software updates reliably and faster.
+
+CI/CD pipelines are critical for this project because they minimize human errors, ensure code quality through automated testing, and accelerate the deployment process, enabling rapid iteration and quick delivery of new features and bug fixes to users.
+
+Common tools used for implementing CI/CD pipelines include GitHub Actions for automation workflows, Docker for containerization, and various testing and deployment tools that help maintain code integrity and seamless releases.
+
+
 
 
 
